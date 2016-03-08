@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB29F92A1C8F43EF0006D2F3 /* RSSFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = FB29F9291C8F43EF0006D2F3 /* RSSFeed.m */; };
 		FBD45D151C8F388B00866670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD45D141C8F388B00866670 /* main.m */; };
 		FBD45D181C8F388B00866670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD45D171C8F388B00866670 /* AppDelegate.m */; };
 		FBD45D1B1C8F388B00866670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD45D1A1C8F388B00866670 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		FBD45D231C8F388C00866670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBD45D211C8F388B00866670 /* LaunchScreen.storyboard */; };
 		FBD45D2E1C8F388C00866670 /* RssFeedDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD45D2D1C8F388C00866670 /* RssFeedDemoTests.m */; };
 		FBD45D391C8F388C00866670 /* RssFeedDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD45D381C8F388C00866670 /* RssFeedDemoUITests.m */; };
+		FBD45D481C8F3B6B00866670 /* RssFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD45D471C8F3B6B00866670 /* RssFeedTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB29F9281C8F43EF0006D2F3 /* RSSFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeed.h; sourceTree = "<group>"; };
+		FB29F9291C8F43EF0006D2F3 /* RSSFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeed.m; sourceTree = "<group>"; };
 		FBD45D101C8F388B00866670 /* RssFeedDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RssFeedDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD45D141C8F388B00866670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FBD45D161C8F388B00866670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		FBD45D341C8F388C00866670 /* RssFeedDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RssFeedDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBD45D381C8F388C00866670 /* RssFeedDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RssFeedDemoUITests.m; sourceTree = "<group>"; };
 		FBD45D3A1C8F388C00866670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD45D461C8F3B6B00866670 /* RssFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RssFeedTableViewController.h; path = ../RssFeedTableViewController.h; sourceTree = "<group>"; };
+		FBD45D471C8F3B6B00866670 /* RssFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RssFeedTableViewController.m; path = ../RssFeedTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,10 @@
 		FBD45D121C8F388B00866670 /* RssFeedDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FB29F9281C8F43EF0006D2F3 /* RSSFeed.h */,
+				FB29F9291C8F43EF0006D2F3 /* RSSFeed.m */,
+				FBD45D461C8F3B6B00866670 /* RssFeedTableViewController.h */,
+				FBD45D471C8F3B6B00866670 /* RssFeedTableViewController.m */,
 				FBD45D161C8F388B00866670 /* AppDelegate.h */,
 				FBD45D171C8F388B00866670 /* AppDelegate.m */,
 				FBD45D191C8F388B00866670 /* ViewController.h */,
@@ -272,6 +282,8 @@
 			files = (
 				FBD45D1B1C8F388B00866670 /* ViewController.m in Sources */,
 				FBD45D181C8F388B00866670 /* AppDelegate.m in Sources */,
+				FBD45D481C8F3B6B00866670 /* RssFeedTableViewController.m in Sources */,
+				FB29F92A1C8F43EF0006D2F3 /* RSSFeed.m in Sources */,
 				FBD45D151C8F388B00866670 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				FBD45D3F1C8F388C00866670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBD45D401C8F388C00866670 /* Build configuration list for PBXNativeTarget "RssFeedDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				FBD45D421C8F388C00866670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBD45D431C8F388C00866670 /* Build configuration list for PBXNativeTarget "RssFeedDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				FBD45D451C8F388C00866670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

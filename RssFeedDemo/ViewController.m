@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property   (strong,nonatomic) IBOutlet UITableView *myTableView;
+
 @end
 
 @implementation ViewController
